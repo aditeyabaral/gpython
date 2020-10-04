@@ -55,9 +55,9 @@ class Calc():
             self.total=int(text_box.get())
             self.total=math.factorial(self.total)
         if self.op == "ln":
-            self.total = log(self.total)
+            self.total = math.log(self.total)
         if self.op == "log":
-            self.total=log(self.total,10)
+            self.total= math.log(self.total,10)
         if self.op == "sine":
             self.total=math.sin(self.total)
         if self.op == "cosine":
